@@ -1,11 +1,11 @@
 terraform {
   cloud {
-    organization = "NAME"
-
+    organization ="patriciarojasp"
     workspaces {
-      name = "hashicat-aws"
+      tags = ["hashicat-aws"]
     }
   }
+  
   required_providers {
     aws = {
       source  = "hashicorp/aws"
