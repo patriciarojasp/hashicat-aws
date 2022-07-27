@@ -1,6 +1,6 @@
 terraform {
   cloud {
-    organization = "hashicorp-patriciarojasp"
+    organization = "NAME"
 
     workspaces {
       name = "hashicat-aws"
