@@ -2,14 +2,14 @@ terraform {
   cloud {
     organization ="patriciarojasp"
     workspaces {
-      tags = ["hashicat-aws"]
+      name = "hashicat-aws"
     }
   }
   
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "=3.42.0"
+      version = "=4.23.0"
     }
   }
 }
